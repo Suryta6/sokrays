@@ -31,13 +31,13 @@ apt install git
 
 cd /root
 
-wget --no-check-certificate https://raw.githubusercontent.com/Suryta6/sokrays/main/gen64.sh?token=ATYCYZXVSEENQS3ED5TBLE3ARK4DW
+wget --no-check-certificate https://raw.githubusercontent.com/Suryta6/sokrays/main/gen64.sh
 
-chmod +x gen64.sh?token=ATYCYZXVSEENQS3ED5TBLE3ARK4DW
+chmod +x gen64.sh
 
-sed -i 's/\r//' gen64.sh?token=ATYCYZXVSEENQS3ED5TBLE3ARK4DW
+sed -i 's/\r//' gen64.sh
 
-sed -e "s/MAXCOUNT=500/MAXCOUNT=$adet/" /root/gen64.sh?token=ATYCYZXVSEENQS3ED5TBLE3ARK4DW > /root/gene64.sh
+sed -e "s/MAXCOUNT=500/MAXCOUNT=$adet/" /root/gen64.sh > /root/gene64.sh
 
 chmod +x gene64.sh
 
@@ -93,15 +93,15 @@ cd /etc/3proxy
 
 rm -rf /etc/3proxy/3proxy.cfg
 
-cd /etc/3proxy/ && wget 'https://raw.githubusercontent.com/Suryta6/sorpty/main/ayelme/3proxy.cfg'
+cd /etc/3proxy/ && wget 'https://raw.githubusercontent.com/Suryta6/sokrays/main/3proxy.cfg'
 
-cd /etc/3proxy/ && wget 'https://raw.githubusercontent.com/Suryta6/sokrays/main/3proxy.sh?token=ATYCYZQF3RIGXF6ASNN7RADARK55Q'
+cd /etc/3proxy/ && wget 'https://raw.githubusercontent.com/Suryta6/sokrays/main/3proxy.sh'
 
-chmod +x /etc/3proxy/3proxy.sh?token=ATYCYZQF3RIGXF6ASNN7RADARK55Q
+chmod +x /etc/3proxy/3proxy.sh
 
-sed -i 's/\r//' /etc/3proxy/3proxy.sh?token=ATYCYZQF3RIGXF6ASNN7RADARK55Q
+sed -i 's/\r//' /etc/3proxy/3proxy.sh
 
-sed -e "s/portbira12/$port1/" /etc/3proxy/3proxy.sh?token=ATYCYZQF3RIGXF6ASNN7RADARK55Q > /etc/3proxy/sene64.sh
+sed -e "s/portbira12/$port1/" /etc/3proxy/3proxy.sh > /etc/3proxy/sene64.sh
 
 chmod +x /etc/3proxy/sene64.sh
 
