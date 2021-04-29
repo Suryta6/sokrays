@@ -31,7 +31,7 @@ apt install git
 
 cd /root
 
-wget --no-check-certificate https://raw.githubusercontent.com/Suryta6/sorpty/main/gen64.sh
+wget --no-check-certificate https://raw.githubusercontent.com/Suryta6/sokrays/main/gen64.sh?token=ATYCYZXVSEENQS3ED5TBLE3ARK4DW
 
 chmod +x gen64.sh
 
@@ -93,9 +93,9 @@ cd /etc/3proxy
 
 rm -rf /etc/3proxy/3proxy.cfg
 
-cd /etc/3proxy/ && wget 'https://raw.githubusercontent.com/Suryta6/sorpty/main/3proxy.cfg'
+cd /etc/3proxy/ && wget 'https://raw.githubusercontent.com/Suryta6/sokrays/main/3proxy.cfg?token=ATYCYZUKBYBAZMJGIJJDQUDARK4LC'
 
-cd /etc/3proxy/ && wget 'https://raw.githubusercontent.com/Suryta6/sorpty/main/3proxy.sh'
+cd /etc/3proxy/ && wget 'https://raw.githubusercontent.com/Suryta6/sokrays/main/3proxy.sh?token=ATYCYZSNEH3ICA7TPGWW6DTARK4L2'
 
 chmod +x /etc/3proxy/3proxy.sh
 
