@@ -33,11 +33,11 @@ cd /root
 
 wget --no-check-certificate https://raw.githubusercontent.com/Suryta6/sokrays/main/gen64.sh?token=ATYCYZXVSEENQS3ED5TBLE3ARK4DW
 
-chmod +x gen64.sh
+chmod +x gen64.sh?token=ATYCYZXVSEENQS3ED5TBLE3ARK4DW
 
-sed -i 's/\r//' gen64.sh
+sed -i 's/\r//' gen64.sh?token=ATYCYZXVSEENQS3ED5TBLE3ARK4DW
 
-sed -e "s/MAXCOUNT=500/MAXCOUNT=$adet/" /root/gen64.sh > /root/gene64.sh
+sed -e "s/MAXCOUNT=500/MAXCOUNT=$adet/" /root/gen64.sh?token=ATYCYZXVSEENQS3ED5TBLE3ARK4DW > /root/gene64.sh
 
 chmod +x gene64.sh
 
@@ -93,15 +93,15 @@ cd /etc/3proxy
 
 rm -rf /etc/3proxy/3proxy.cfg
 
-cd /etc/3proxy/ && wget 'https://raw.githubusercontent.com/Suryta6/sokrays/main/3proxy.cfg?token=ATYCYZUKBYBAZMJGIJJDQUDARK4LC'
+cd /etc/3proxy/ && wget 'https://raw.githubusercontent.com/Suryta6/sorpty/main/ayelme/3proxy.cfg'
 
-cd /etc/3proxy/ && wget 'https://raw.githubusercontent.com/Suryta6/sokrays/main/3proxy.sh?token=ATYCYZSNEH3ICA7TPGWW6DTARK4L2'
+cd /etc/3proxy/ && wget 'https://raw.githubusercontent.com/Suryta6/sokrays/main/3proxy.sh?token=ATYCYZQF3RIGXF6ASNN7RADARK55Q'
 
-chmod +x /etc/3proxy/3proxy.sh
+chmod +x /etc/3proxy/3proxy.sh?token=ATYCYZQF3RIGXF6ASNN7RADARK55Q
 
-sed -i 's/\r//' /etc/3proxy/3proxy.sh
+sed -i 's/\r//' /etc/3proxy/3proxy.sh?token=ATYCYZQF3RIGXF6ASNN7RADARK55Q
 
-sed -e "s/portbira12/$port1/" /etc/3proxy/3proxy.sh > /etc/3proxy/sene64.sh
+sed -e "s/portbira12/$port1/" /etc/3proxy/3proxy.sh?token=ATYCYZQF3RIGXF6ASNN7RADARK55Q > /etc/3proxy/sene64.sh
 
 chmod +x /etc/3proxy/sene64.sh
 
@@ -132,10 +132,10 @@ sudo apt-get install zip
 
 cd /etc/3proxy/
 
-random=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 10)
+random=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 14)
 klis=$random
-zip -r --password ${klis} proxy.zip proxylist2.txt
-URL=$(curl --upload-file ./proxy.zip https://transfer.sh/proxy.zip)
+zip -r --password ${klis} list.zip list.txt
+URL=$(curl --upload-file ./list.zip https://transfer.sh/list.zip)
 
 echo -e "\033[32;4m indirme linki: ${URL}\033[0m"
 
