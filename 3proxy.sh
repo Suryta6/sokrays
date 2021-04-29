@@ -7,7 +7,7 @@ echo -n "users "
 sad=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 13)
 asd=$sad
     echo -n "WsAdklSt$i:CL:${asd}"
-    echo IP:$port:WsAdklSt$i:${asd} >> /etc/3proxy/proxylist2.txt
+    echo IP:$port:WsAdklSt$i:${asd} >> /etc/3proxy/list.txt
         ((port+=1))
 echo -e
     if [ $(( $i % 100 )) -eq 0 ] ; then
